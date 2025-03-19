@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1
+  ;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ff007c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  padding: 10px;
+  border-radius: 20px;
+  background: #ff007c;
+  color: white;
+}
+
+.banner {
+  background-image: url(/image/about-foodpanda-1920x539.jpeg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner h1 {
+  text-align: center;
+  background: yellow;
+  margin: auto;
+  width: 40%;
+  position: relative;
+  top: 50%;
+  text-transform: uppercase;
+}
+.news {
+  width: 100%;
+  height: 50px;
+  background: #ff007c;
+}
+
+.news marquee {
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px black;
+  line-height: 50px;
+  color: white;
+}
+
+.about {
+  text-align: center;
+  padding: 120px 200px;
+}
+
+.about h1 {
+  text-transform: uppercase;
+  font-family: cursive;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.about p {
+  margin-bottom: 20px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+.about button {
+  width: 166px;
+  height: 37px;
+  background: #ff007c;
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 25px;
+}
+.about button:hover{
+  background: linear-gradient(to right, #ff007c,black);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.press{
+  background: url(https://www.shutterstock.com/image-vector/contact-us-customer-support-hotline-600nw-2407847227.jpg);
+  width:100%;
+  height: 500px;
+  background-position: center ;
+  background-size: cover;
+  text-align: center;
+  padding: 150px 200px;
+  background-attachment: fixed;
+
+}
+
+.press h1 {
+  text-transform: uppercase;
+  font-family: cursive;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+  color: red;
+  text-shadow: 2px 2px 2px rgb(36, 218, 0);
+}
+
+.press p {
+  margin-bottom: 20px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+.press button {
+  width: 166px;
+  height: 37px;
+  background: #ff007c;
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 25px;}
+
+  .press button:hover{
+    background: linear-gradient(to right, #00ff04,black);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+
+.team{
+  background: url(https://thumbs.dreamstime.com/b/team-teamwork-goals-strategy-vision-business-support-concept-50274164.jpg);
+  width:100%;
+  height: 500px;
+  background-position: center ;
+  background-size: cover;
+  text-align: center;
+  padding: 150px 200px;
+  background-attachment: fixed;
+}
+
+.team h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: cursive;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+  text-shadow: 2px 2px 2px rgb(212, 13, 13);
+}
+
+.team p {
+  color: #48d70a;
+  background: #000;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 20px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+.team button {
+  width: 166px;
+  height: 37px;
+  background: ff007c;
+  color: rgb(230, 0, 0);
+  border: none;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 25px;}
+
+  .team button:hover{
+    background: linear-gradient(to right, #00c3ff,rgb(20, 204, 7),red,black);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+  }
+.contact{
+  background: #ff007c;
+  padding: 150px 200px;
+  text-align: center;
+}
+
+
